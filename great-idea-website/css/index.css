@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,110 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	padding: 50px 80px;
+}
+
+header {
+	margin-bottom: 50px;
+}
+
+header nav {
+	display: inline-block;
+  width: 75%;
+}
+
+header nav a {
+	display: inline-block;
+  text-decoration: none;
+  width: 16%;
+	color: #333;
+	font-size: 20px;
+}
+
+header nav a:hover {
+	color: #6A6AF6;
+}
+
+header img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.h1-button-container {
+	display: inline-block;
+	width: 53%;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 60px;
+}
+
+.h1-button-container h1 {
+	font-size: 120px;
+}
+
+.h1-button-container button {
+	width: 40%;
+	height: 50px;
+	border: 2px solid black;
+	font-size: 20px;
+	font-family: inherit;
+	margin-top: 10px;
+}
+
+.h1-button-container button:hover {
+	color: white;
+	background-color: black;
+}
+
+header img:nth-child(4) {
+	margin-top: 80px;
+	width: 45%;
+}
+
+main .first-section-container {
+	font-size: 20px;
+	border-top: 2px solid black;
+	padding: 50px 0;
+}
+
+main .first-section-container section div {
+	display: inline-block;
+	width: 49%;
+	margin: 0 .4%;
+}
+main .first-section-container section h2 {
+	font-size: 25px;
+}
+
+main img {
+	width: 100%;
+}
+
+main .second-section-container {
+	font-size: 20px;
+	border-bottom: 2px solid black;
+	padding: 50px 0;
+}
+
+main .second-section-container section div {
+	display: inline-block;
+	width: 30%;
+	margin: 0 1.4%;
+}
+main .second-section-container section h2 {
+	font-size: 25px;
+}
+
+footer {
+	margin-top: 50px;
+}
+
+footer h2 {
+	font-size: 25px;
+}
+
+footer p {
+	margin-top: 50px;
+	text-align: center;
+}
